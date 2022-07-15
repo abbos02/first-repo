@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.card{
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 8px black;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="checkbox"]{
+    appearance: none;
+    width: 70px;
+    height: 27px;
+    background: yellow;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 3px silver;
+}
+input[type="checkbox"]::after{
+    content: "-";
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    background: blue;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background:#fff;
+    display: inline-block;
+    position: absolute;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+
+input[type="checkbox"]:checked:after{
+    content: "+";
+    
+    height: 27px;
+    width: 27px;
+ 
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 43px;
+    transition: all 0,2s ease;
+    -webkit-transition: all 0,2s ease;
+    -moz-transition: all 0,2s ease;
+    -ms-transition: all 0,2s ease;
+    -o-transition: all 0,2s ease;
+}
+
+
+input[type="checkbox"]:checked{
+    content: "";
+    height: 27px;
+    width: 70px;
+    background: blue;
+    border-radius:25px;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    -ms-border-radius:25px;
+    -o-border-radius:25px;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}

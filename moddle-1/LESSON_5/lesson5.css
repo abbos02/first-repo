@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'shirft2';
+    src: url(../LESSON_5/SHIRFT/Demo_ConeriaScript.ttf);
+}
+.title{
+    text-align: center;
+font-family: "shirft2",sans-serif;
+
+}
+@font-face {
+    font-family:'SHIRFT1' ;
+    src: url(../LESSON_5/SHIRFT/FONT1.ttf);
+}
+.text{
+    font-family: "SHIRFT1",sens-serf;
+}

@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+/* header start*/
+.header{
+    background: white;
+    box-shadow: 0 15px 3px 3px #f2f0f0d6;
+    display: flex;
+    justify-content:space-between;
+    width:80%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+.nav{
+    display: flex;
+}
+.list{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    border-bottom: 3px;
+    list-style: none;
+}
+.link.li{
+    text-decoration: none;
+}
+.link{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.link:hover{
+    border-bottom: 3px solid #000;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.link:active{
+    background: #191919B2;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.coll{
+    text-decoration: none;
+    background: #00BAFC;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.coll:hover{
+    text-decoration: none;
+    border: 3px solid #00BAFC99;
+    color:#00BAFC99;
+    background: white;
+    padding: 8px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.coll:active{
+    text-decoration: none;
+    background: #00BAFC99;
+    color: #FFFFFF;
+    padding: 8px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+a{  
+    color: #000;
+}
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+.item{
+    display: none;
+    flex-direction: column;
+    background:white;
+    position: absolute;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    
+}.item a{
+    display: block;
+    
+    width: 100%;
+    padding: 10px 0;
+}
+.item a:hover{
+    background: #00BAFC;
+    color: white;
+}
+.dropdown:hover .item{
+    display: block;
+}
+.item a:active{
+    background-color: #07e9fd;
+}
+/*header finish*/
+
+
+/*article start*/
+
+.article{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.text1{
+    margin: 100px 0; 
+    text-align: center;
+    line-height: 25px;
+}
+.text1 p{
+    margin-top: 20px;
+}
+.img{
+    margin: 100px;
+}
+/*article finish*/
+
+/*big card start*/
+.big_card{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.card_little{
+    margin: 50px 0;
+    background: white;
+    box-shadow: 0 7px 3px 3px silver;
+}
+/*card2 start*/
+.card2{
+    display: flex;
+    justify-content: center;
+   
+}
+.box{
+    margin: 0 50px;
+   
+}
+/*card2 finish*/
+
+
+/*card3 start*/
+.card3{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+}
+.card3 button{
+    background: #00BAFC;
+    color: white ;
+    border-radius: 5px ;
+    border: 1px solid #00BAFC;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+    padding: 10px;
+}
+.card3 a{
+    color: #00BAFC;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+/*card3 finish*/
+
+/*big card finish*/
+
+/*card3 start*/
+.senction {
+    width: 80%;
+    margin: 0 auto;
+}
+.senction .text3{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card4{
+    display: flex;
+    
+}
+.card4 div{
+    margin: 125px 150px;
+}
+.buyurtma{
+    width: 13%;
+    margin-left: 500px;
+    padding-left: 15px;
+    padding-top: 5px;
+    color: white;
+    background: #00BAFC;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.buyurtma:hover{
+    width: 13%;
+    margin-left: 500px;
+    padding-left: 15px;
+    padding-top: 5px;
+    color: white;
+    background:#07e9fd;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/*card4 finish*/
+
+/*forma start*/
+.senction2{
+    width: 100%;
+    margin: 0 auto;
+    background: #00BAFC;
+    padding-top: 50px;
+    height: 45vh;
+}
+.unit{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.text4{
+    color: white;
+    text-align: center;
+}
+.forma{
+    border-radius:10px;
+    width: 20%;
+    height: 150px;
+    padding: 30px;
+    margin: 0 auto;
+    background: white;
+}
+#name{
+    background: #F3F3F3;
+    margin: 10px 40px;
+}
+#number{
+    background: #F3F3F3;
+    margin: 10px 40px;
+}
+#xizmat{
+    background: #F3F3F3;
+    margin: 10px 40px;
+}
+#button{
+    width: 30%;
+}
+.forma p{
+    width: 60%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: #00BAFC;
+    background: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.forma p:hover{
+    width: 60%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: #000;
+    background: #07e9fd;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/*forma finish*/
+
+/*fouter start*/
+.fouter{
+    display: flex;
+    justify-content: space-around;
+    background: #000;
+    color: white;
+    width: 100%;
+    height: 30vh;
+    padding-left: 150px;
+    padding-top: 50PX;
+    
+}
+.fouter h3{
+    margin-bottom: 20px;
+}
+.fouter .little_card2 h4{
+    margin-bottom: 20px;
+}
+.fouter .little_card2 .list2{
+    list-style: none;
+}
+.list2 div{
+    display: flex;
+
+}
+.list2 div img:hover{
+    display: flex;
+    background: #00BAFC;
+}
+.list2 div img{
+    margin-right: 10px;
+}
+/*fouter finish*/

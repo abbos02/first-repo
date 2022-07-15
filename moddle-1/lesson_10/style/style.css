@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.contener{
+    bottom: 4px solid red;
+    position: relative;
+    width: 660px;
+    height: 500px;
+    margin: 20px auto;
+
+}
+.box{
+    width: 220px;
+    height: 220px;
+}
+.box:nth-child(1){
+    background:gold;
+
+}

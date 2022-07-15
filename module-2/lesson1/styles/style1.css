@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.card{
+    display: flex;
+}
+.card2{
+    width: 20.8%;
+    margin: 0 auto;
+    background: #1A1B21;
+   
+}
+
+.text{
+    text-align: center;
+    color: white;
+}
+.text h2{
+    color:#F3BF99;
+    margin: 10px 0;
+}
+.text p{
+    color: #F5F5F5;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+}
+.email{
+    width: 30%;
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 10px 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.linkedln{
+    width: 30%;
+    display: flex;
+    background: #5093E2;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding-top: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.about{
+    
+    width: 80%;
+    margin: 15px auto;
+    color: white;
+}
+.interests{
+    
+    width: 80%;
+    margin: 15px auto;
+    color: white;
+}
+.fouter{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+
+
+
+.card3{
+    width: 20.8%;
+    margin: 0 auto;
+    background: white;
+   
+}
+
+.text{
+    text-align: center;
+    color: #2B283A;
+}
+.text h2{
+    color:#F3BF99;
+    margin: 10px 0;
+}
+.text p{
+    color: #4A4E74;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+}
+.email{
+    width: 30%;
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 10px 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.linkedln{
+    width: 30%;
+    display: flex;
+    background: #5093E2;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding-top: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.about{
+    
+    width: 80%;
+    margin: 15px auto;
+    color: #4A4E74;
+}
+.interests{
+    
+    width: 80%;
+    margin: 15px auto;
+    color: #4A4E74;
+}
+.fouter{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    background: #000;
+}
